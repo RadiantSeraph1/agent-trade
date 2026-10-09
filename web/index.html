@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FX Lab</title>
+<link rel="manifest" href="/manifest.webmanifest" crossorigin="use-credentials">
+<meta name="theme-color" content="#0f172a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="FX Lab">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-icon" href="/icons/icon-180.png">
+<link rel="icon" href="/icons/icon-192.png">
+<link rel="stylesheet" href="/app.css">
+</head>
+<body>
+<header>
+  <h1>FX Lab</h1>
+  <span class="badge paper" id="mode">PAPER / DEMO ONLY</span>
+</header>
+<main>
+  <section id="signed-in" hidden>
+    <div class="card">
+      <h2>System</h2>
+      <dl id="status"><dt>Loading…</dt><dd></dd></dl>
+    </div>
+  </section>
+  <p id="msg" role="status"></p>
+</main>
+<script src="/app.js"></script>
+</body>
+</html>
